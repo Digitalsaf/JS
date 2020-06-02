@@ -5,12 +5,12 @@ var subtract = function(a, b) {
   return a - b;
 }
 
-function divide(a, b){
+let divide = function (a, b){
   return a / b;
 }
 
-function multiply(a, b){
+let multiply = function (a, b){
   return a * b;
 }
 
-module.exports = {add: add, subtract: subtract};
+module.exports = {add: add, subtract: subtract, divide:divide, multiply:multiply};

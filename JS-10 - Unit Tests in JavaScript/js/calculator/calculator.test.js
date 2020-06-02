@@ -24,6 +24,15 @@ test('divides 10 % 2', () => {
   expect(calculator.divide(10, 2)).toBe(5);
 });
 
+test('divides 4 % 4', () => {
+  expect(calculator.divide(4, 4)).toBe(1);
+});
+
+
 test('multiplies 6 * 6', () => {
   expect(calculator.multiply(6, 6)).toBe(36);
+});
+
+test('multiplies 9 * 3', () => {
+  expect(calculator.multiply(9, 3)).toBe(27);
 });
