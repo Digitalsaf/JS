@@ -15,3 +15,15 @@ test('subtract 5 - 4 to equal 1', () => {
 test('subtract -5 - -10 to equal 5', () => {
   expect(calculator.subtract(-5, -10)).toBe(5);
 });
+
+test('subtract 5 - 4 to equal 1', () => {
+  expect(calculator.subtract(5, 4)).toBe(1);
+});
+
+test('divides 10 % 2', () => {
+  expect(calculator.divide(10, 2)).toBe(5);
+});
+
+test('multiplies 6 * 6', () => {
+  expect(calculator.multiply(6, 6)).toBe(36);
+});
